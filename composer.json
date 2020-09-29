@@ -1,0 +1,22 @@
+{
+    "name": "root/hyperf-rebuild",
+    "authors": [
+        {
+            "name": "king",
+            "email": "junlinhuang1@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^5.1",
+        "symfony/finder": "^5.1"
+    },
+    "require-dev": {
+        "swoole/ide-helper": "^4.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Rebuild\\": "src/"
+        }
+    }
+}
